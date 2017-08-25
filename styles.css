@@ -1,0 +1,187 @@
+body {
+	margin: 0;
+	padding: 0;
+	letter-spacing: 1px;
+}
+
+header {
+	background-image: url("img/wot-masthead-dark.jpg");
+	background-size: cover;
+	height: 515px;
+	width: 100%;
+}
+
+.navbar {
+	width: 70%;
+	height: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	vertical-align: middle;
+	margin: auto;
+}
+
+.logo-position {
+	margin: auto;
+}
+
+.logo {
+	display: block;
+	width: 160px;
+}
+
+.menu {
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	color: white;
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 10px;
+	border-bottom: 4px solid transparent;
+}
+
+li:hover {
+	border-bottom: 4px solid #C8E23A;
+	cursor: pointer;
+}
+
+.intro {
+	color: white;
+	font-family: "Oswald", sans-serif;
+	font-weight: normal;
+	letter-spacing: 2px;
+	vertical-align: middle;
+	width: 60%;
+	max-width: 730px;
+	height: 250px;
+	margin: auto;
+}
+
+h1 {
+	font-size: 22px;
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+
+span {
+	display: block;
+}
+
+.main {
+	font-size: 155px;
+	font-weight: 300;
+	text-align: center;
+	margin-top: -50px;
+}
+
+.sub {
+	font-size: 20px;
+	text-transform: none;
+	text-align: center;
+	margin-top: -20px;
+	position: relative;
+}
+
+.sub::before {
+	content: "";
+	background-color: white;
+	height: 9px;
+	width: 15%;
+	display: block;
+	left: 0;
+	top: 12px;
+	position: absolute;
+}
+
+.sub::after {
+	content: "";
+	background-color: white;
+	height: 9px;
+	width: 15%;
+	display: block;
+	right: 0;
+	top: 12px;
+	position: absolute;
+}
+
+em {
+	color: #FE8440;
+	font-style: normal;
+}
+
+i {
+	color: #C1D544;
+	font-style: normal;
+}
+
+.button {
+	background-color: #BDD436;
+	border-radius: 50px;
+	width: 360px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.button p {
+	font-family: "Open-Sans", sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	vertical-align: middle;
+	color: white;
+}
+
+.button:hover {
+	background-color: #C8E23A;
+	cursor: pointer;
+}
+
+.section1 {
+	background-color: #F0F0F0;
+	width: 100%;
+	height: 375px;
+	padding-top: 40px;
+	text-align: center;
+}
+
+.section1 p {
+	color: #7F8B8F;
+	font-family: "Open-Sans", sans-serif;
+	font-size: 24px;
+	line-height: 36px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.section1icon {
+	background-image: url("img/sprite_home.png");
+	background-position: -22px -113px;
+	width: 75px;
+	height: 75px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.heres-how p {
+	text-transform: uppercase;
+	font-family: "Oswald", sans-serif;
+	font-size: 42px;
+	font-weight: 300;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.works {
+	color: #BDD436;
+	font-weight: bold;
+	display: inline-block;
+}
